@@ -2,7 +2,7 @@
 
 # 設定ファイルの調整
 ## database.phpの設定内容の変更
-データベースの設定で、作成したデータベース・ユーザ名等を、application/app/Config/database.phpに記述します。
+データベースの設定で、作成したデータベース・ユーザ名等を、fundee_product/app/Config/database.phpに記述します。
 
 以下は例になります。
 
