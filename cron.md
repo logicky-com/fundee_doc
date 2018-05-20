@@ -21,7 +21,7 @@
 #### 1. CheckAONShellの実行
 
 ```
-cd /home/hoge/www/fundee_product/app; /usr/local/bin/php /home/hoge/www/fundee_scratch/app/Console/cake.php CheckAON
+cd /home/hoge/www/fundee_product/app; /usr/local/bin/php /home/hoge/www/fundee_product/app/Console/cake.php CheckAON
 ```
 
 - /home/hoge/www/fundee_productは、appフォルダが格納されているパスを、 絶対パスで記入する必要があります。正しい内容に置き換えてください。
@@ -30,7 +30,7 @@ cd /home/hoge/www/fundee_product/app; /usr/local/bin/php /home/hoge/www/fundee_s
 #### 2. ExtendCaptureShellの実行
 
 ```
-cd /home/hoge/www/fundee_product/app; /usr/local/bin/php /home/hoge/www/fundee_scratch/app/Console/cake.php ExtendCapture
+cd /home/hoge/www/fundee_product/app; /usr/local/bin/php /home/hoge/www/fundee_product/app/Console/cake.php ExtendCapture
 ```
 
 ### （参考）CRONで実行させるプログラムの処理内容について
