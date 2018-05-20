@@ -2,18 +2,21 @@
 
 # データベースの設定
 ## インポートするSQLファイルの場所
-ダウンロードしたfundee_scratch.zipを展開すると、下記のような構成になっています。
+ダウンロードしたfundee.zipを展開すると、下記のような構成になっています。
 
 ```
-fundee_scratch
-├─application
-│
-├─sql
-│  └─init.sql
-│
-└─doc
+fundee_product
+├── .htaccess
+├── app            ... 本システムの主要機能は全てこのappフォルダ内にあります
+├── composer.json
+├── composer.lock
+├── index.php
+├── lib            ... CakePHPフレームワークの本体一式
+├── plugins
+└── sql
+    └── init.sql   ... データベースにインポートするsqlファイル
 ```
-sqlフォルダの中にある、init.sqlがインポート対象のsqlファイルです。
+fundee_product/sqlフォルダの中にある、init.sqlがインポート対象のsqlファイルです。
 
 ## MySQLでデータベースを作成します
 任意のデータベース名でデータベースを新規に作成します。文字コードはUTF-8、照合順序は、utf_unicode_ciにしてください。
