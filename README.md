@@ -1,5 +1,8 @@
-# Fundeeサーバ設置マニュアル
+![FUNDEE](https://user-images.githubusercontent.com/39437528/40274494-7bf22ed8-5c12-11e8-9e7d-1865832e0dd4.png "FUNDEE")
 
+![](https://user-images.githubusercontent.com/39437528/40274497-7ef505ce-5c12-11e8-8ce0-047dc498b9b5.png "")
+
+# Fundeeサーバ設置マニュアル
 ## 対象製品
 - Fundeeノーマル
 - Fundeeダブル
