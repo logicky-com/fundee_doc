@@ -9,6 +9,7 @@
 
 ```
 fundee_product
+├── .htaccess
 ├── app            ... 本システムの主要機能は全てこのappフォルダ内にあります
 ├── composer.json
 ├── composer.lock
@@ -24,6 +25,7 @@ fundee_product
 
 ```
 app
+├── .htaccess
 ├── Config                 ... 各種設定ファイルが全て入っています
 ├── Console                ... CRONで実行させるプログラムが入っています
 ├── Controller             ... コントローラファイルが全て入っています
@@ -68,6 +70,7 @@ app
 ├── index.php
 ├── tmp                    ... CakePHPが生成するエラーログやキャッシュファイルが出力されます
 └── webroot                ... ドキュメントルートに対応するフォルダ
+    ├── .htaccess
     ├── bootstrap          ... HTMLフレームワークbootstrap
     ├── css                ... CSSファイルが格納されています
     ├── favicon.ico        
