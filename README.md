@@ -10,8 +10,12 @@
 
 ## 仕様
 - [動作環境](/env.md)
-- [フォルダ構成](/dir.md)
-- データベース構成
+- [フォルダ構成(Fundeeノーマル)](/dir.md)
+- [フォルダ構成(Fundeeダブル)](/dir.md)
+- [フォルダ構成(Fundeeデラックス)](/dir.md)
+- [データベース構成(Fundeeノーマル)](/db_double.md)
+- [データベース構成(Fundeeダブル)](/db_double.md)
+- [データベース構成(Fundeeデラックス)](/db_double.md)
 
 ##  設定方法
 - [設定の流れ](/flow.md)
