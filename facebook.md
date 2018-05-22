@@ -34,11 +34,16 @@
 ![facebook9](https://user-images.githubusercontent.com/28310715/40359158-ab4a9166-5dfc-11e8-9217-11e3a7153c36.png)
 
 ### 12. 下記画面が表示されますので、下記を実行します。
-- 有効なOAuthリダイレクトURIを設定します。（https://●●●●●.com/fb_callback のように、URLの後に、fb_callbackをつけます）
-- コールバックURLの許可の取り消しを設定します。（https://●●●●●.com/login のように、URLの後に、loginをつけます）
-- 「変更を保存」をクリックし、左サイドバーの「設定」 > 「ベーシック」をクリックします。
+- プライバシーポリシーのURLを設定します。（https://●●●●●.com/policy のように、URLの後に、policyをつけます）
+- 利用規約のURLを設定します。（https://●●●●●.com/rule のように、URLの後に、ruleをつけます）
+- ウェブサイト > サイトURLが設定されているか確認しいます。設定されていない場合は、設定します。
+- 「変更を保存」をクリックし、左サイドバーの「アプリレビュー」をクリックします。
 
 ![facebook10](https://user-images.githubusercontent.com/28310715/40359422-ab21d734-5dfd-11e8-8b23-a5e8914ed4b0.png)
 
-### 13.下記画面が表示されますので、
+### 13.（アプリ名）を公開するを「はい」にすると、下記画面が表示されますので、カテゴリを選択し、「承認」をクリックします。
 ![facebook11](https://user-images.githubusercontent.com/28310715/40359463-cc4ad884-5dfd-11e8-8f4f-1110aad2a700.png)
+
+### 14.左サイドバーの「設定」 > 「ベーシック」をクリックすると、「アプリID」と「app secret」があります。これがFundeeの管理画面に登録する内容になります。
+
+
