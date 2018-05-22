@@ -19,6 +19,8 @@
 
 ##  設定方法
 - [設定の流れ](/flow.md)
+- [（参考）Twitterアプリの登録の流れ](/twitter.md)
+- [（参考）Facebookアプリの登録の流れ](/facebook.md)
 - [サーバの設定](/server.md)
 - [データベースの設定](/db.md)
 - [設定ファイルの調整](/config.md)
