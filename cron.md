@@ -33,6 +33,22 @@ cd /home/hoge/www/fundee_product/app; /usr/local/bin/php /home/hoge/www/fundee_p
 cd /home/hoge/www/fundee_product/app; /usr/local/bin/php /home/hoge/www/fundee_product/app/Console/cake.php ExtendCapture
 ```
 
+### Fundeeデラックスの場合
+
+上記1, 2に加えて下記3, 4も設定してください。
+
+#### 3. CancelMonthlyShellの実行
+
+```
+cd /home/hoge/www/fundee_product/app; /usr/local/bin/php /home/hoge/www/fundee_product/app/Console/cake.php CancelMonthly
+```
+
+#### 4. CheckMonthlyShellの実行
+
+```
+cd /home/hoge/www/fundee_product/app; /usr/local/bin/php /home/hoge/www/fundee_product/app/Console/cake.php CheckMonthly
+```
+
 ### （参考）CRONで実行させるプログラムの処理内容について
 参考としまして、CheckAONShellが実行する内容は、下記になります。
 
