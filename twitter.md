@@ -10,7 +10,9 @@
 ### 3. 下記のような画面が表示されるので、Create New Appボタンをクリックします。
 ![twitter1](https://user-images.githubusercontent.com/28310715/40352620-4027d266-5dea-11e8-95e6-ce0f041f7ac4.png)
 ### 4. 下記のような画面が表示されるので、全項目を入力します。
-- Callback URLsは、WebsiteのURLと同じで構いません。
+- ~~Callback URLsは、WebsiteのURLと同じで構いません。~~
+- Twitterのセキュリティ強化により上記では動作しなくなりました。Callback URLsは下記を入力していただく必要があります。
+  - https://xxxxxx.com/tw_callback (xxxxxx.comは、貴社のドメインに置き換えてください)
 - 入力が終わったら、Create your Twitter Applicationボタンをクリックします。
 ![twitter2](https://user-images.githubusercontent.com/28310715/40352651-5666a692-5dea-11e8-8dc0-d75b53029e9d.png)
 ### 5. 下記の画面が表示されます。
