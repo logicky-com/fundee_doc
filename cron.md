@@ -14,7 +14,7 @@
 ## CRONに登録するコマンドの内容
 
 ### FundeeノーマルのALL OR NOTHINGか、Fundeeダブルの場合
-- CRONに登録するコマンドは2つです。
+- CRONに登録するコマンドは1つです。
 - 下記のようにコマンドを設定してください。
 - 実行頻度は2分毎に設定してください。 （実行頻度については、下記の『実行させるプログラムの実行頻度について』もご参照ください）
 
@@ -27,26 +27,15 @@ cd /home/hoge/www/fundee_product/app; /usr/local/bin/php /home/hoge/www/fundee_p
 - /home/hoge/www/fundee_productは、appフォルダが格納されているパスを、 絶対パスで記入する必要があります。正しい内容に置き換えてください。
 - /usr/local/bin/php は、実際のサーバのphpのコマンドパスを入力する必要があります。正しい内容に置き換えてください。
 
-#### 2. ExtendCaptureShellの実行
-
-```
-cd /home/hoge/www/fundee_product/app; /usr/local/bin/php /home/hoge/www/fundee_product/app/Console/cake.php ExtendCapture
-```
 
 ### Fundeeデラックスの場合
 
-上記1, 2に加えて下記3, 4も設定してください。
+上記1に加えて下記2も設定してください。
 
-#### 3. CancelMonthlyShellの実行
+#### 2. CancelMonthlyShellの実行
 
 ```
 cd /home/hoge/www/fundee_product/app; /usr/local/bin/php /home/hoge/www/fundee_product/app/Console/cake.php CancelMonthly
-```
-
-#### 4. CheckMonthlyShellの実行
-
-```
-cd /home/hoge/www/fundee_product/app; /usr/local/bin/php /home/hoge/www/fundee_product/app/Console/cake.php CheckMonthly
 ```
 
 ### （参考）CRONで実行させるプログラムの処理内容について
